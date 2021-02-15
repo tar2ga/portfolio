@@ -5,6 +5,7 @@
 	padding-top: 205px;
 	.title {
 		text-align: right;
+		color: white;
 	}
 	&__title {
 		//width: 535px;
@@ -14,6 +15,10 @@
 		z-index: 2;
 		position: relative;
 		@include before-circle;
+		&:before {
+			right: 172px;
+			left: auto;
+		}
 	}
 	&__btns {
 		margin-top: 25px;
