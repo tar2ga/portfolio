@@ -78,25 +78,11 @@
 			border-radius: 4px;
 			grid-column: 1 / 3;
 			grid-row: 2 / 3;
-		}
-		&-percent {
-			height: 14px;
-			background: $main-color;
-			border-radius: 4px;
-			grid-column: 1 / 3;
-			grid-row: 2 / 3;
-		}
-		#w95 {
-			width: 95%;
-		}
-		#w90 {
-			width: 90%;
-		}
-		#w85 {
-			width: 85%;
-		}
-		#w75 {
-			width: 75%;
+			span {
+				display: block;
+				height: 100%;
+				background: $main-color;
+			}
 		}
 	}
 }

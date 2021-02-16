@@ -13,3 +13,14 @@ function removeMenu() {
 
 closeElem.addEventListener('click', removeMenu)
 overlay.addEventListener('click', removeMenu)
+
+const percent = document.querySelectorAll('.skills__progress-item-title-percent'),
+	  scale = document.querySelectorAll('.skills__progress-item-scale span');
+
+percent.forEach( (item, i) => {
+	console.log(item);
+});
+
+percent.forEach( (item, i) => {
+	scale[i].style.width = item.innerHTML;
+});
